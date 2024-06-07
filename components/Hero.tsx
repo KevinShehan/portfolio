@@ -27,10 +27,14 @@ const Hero = () => {
       >
         <div
           className="absolute pointer-events-none
-       inset-0 flex items-center justify-center
-        dark:bg-black-100 bg-white 
+       inset-0 flex items-center justify-center dark:bg-black-100 bg-white 
         [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
+      </div>
+      <div className="flex justify-center">
+        <div className="max-w-[89vw]">
+          <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">Dynamic Web Magic with Next.js</h2>
+        </div>
       </div>
     </div>
   );
